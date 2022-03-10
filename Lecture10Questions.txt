@@ -1,0 +1,45 @@
+1. How did Van Eyck try to understand light?
+He tried to understand how light is transported throughout the scene.
+
+2. What is the idea of Photo Realistic Rendering?
+Rendering that is so good that it looks like a real photo
+
+3. What “comes for free” in Global illumination?
+Environment mapping - Multiple inter-reflections
+Shadows - soft and hard shadows
+Color bleeding
+Refraction
+
+4. What is the rendering equation saying?
+How lighting theoretically should be calculated
+
+5. What is a BRDF?
+A function that describes how light is reflected in a physical realistic way. Can be measured for any material
+
+6. Can you explain Raytracing?
+shoot several rays through each pixel on the screen and back trace them to light sources within a bounding box.
+
+7. Why is supersampling important?
+Rays shot through different locations in a pixel will recieve very different lighting information. Therefore 
+several rays are shot to get a better approximation of the light that should go into that pixel.
+Using stochastic locations for the rays will also reduce aliasing effects.
+
+8. How can bounding volumes help to speed up computations?
+You have to check for less hits
+
+9. Can you explain the ideas behind space partitioning?
+By partitioning a space into a hierarchy of bounding boxes, less hit checks have to be made.
+You traverse a tree of partitions and check hits until you finally end up in a leaf where
+you check hits for all triangles in that leaf partition.
+
+10. Can you explain Radiosity?
+A lighting model inspired by heat transfer PDEs.
+Iteratively let light sources emit light to recievers, in next iterations the recievers become emitters and repeat
+until equilibrium is met.
+
+11. What us the idea of progressive refinement?
+See prev answer
+
+12. When should you use radiosity and when is raytracing better?
+Radiosity works well for matte lambertian surfaces and raytracing is good for specular and translucent surfaces.
+Some parts of raytracing can also be done in real time, I don't know if that is the case for radiosity.

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\build\CMakeFiles\9ab5391ff9081537bafe61151534ffa1\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F6F68C07-980A-38FB-B7EF-82C4BD133039}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

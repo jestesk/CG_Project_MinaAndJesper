@@ -1,0 +1,10 @@
+^C:\USERS\EZSTOJE\DESKTOP\IMAGEANALYSIS AND ML\COMPUTER GRAPHICS\ASSIGNMENT 1\GLTF_VIEWER-MAIN\BUILD\CMAKEFILES\9AB5391FF9081537BAFE61151534FFA1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\cmake-3.22.1-windows-x86_64\bin\cmake.exe" "-SC:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main" "-BC:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/model_viewer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

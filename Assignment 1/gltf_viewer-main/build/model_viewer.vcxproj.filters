@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\src\cg_trackball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\src\cg_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\src\gltf_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\src\gltf_render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\src\gltf_scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\src\model_viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\gl3w\src\gl3w.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\imgui\examples\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\external\imgui\examples\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ezstoje\Desktop\ImageAnalysis and ML\Computer Graphics\Assignment 1\gltf_viewer-main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25FF6701-57D2-3441-BA9B-EC6118A69E4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\shaders\mesh.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\src\shaders\mesh.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\src\shaders\postprocessing.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\src\shaders\postprocessing.vert">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/CMakeFiles/model_viewer.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/CMakeFiles/INSTALL.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/glfw/CMakeFiles/INSTALL.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/glfw/src/CMakeFiles/glfw.dir
+C:/Users/ezstoje/Desktop/ImageAnalysis and ML/Computer Graphics/Assignment 1/gltf_viewer-main/build/glfw/src/CMakeFiles/INSTALL.dir
