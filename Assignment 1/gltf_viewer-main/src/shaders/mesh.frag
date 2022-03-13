@@ -1,7 +1,7 @@
 #version 330
 #extension GL_ARB_explicit_attrib_location : require
 
-const int maxCelLevels = 4;
+const int maxCelLevels = 3;
 
 // Uniform constants
 uniform bool u_useGammaCompensation;

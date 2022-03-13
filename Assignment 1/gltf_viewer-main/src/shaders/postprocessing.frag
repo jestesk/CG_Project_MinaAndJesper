@@ -30,12 +30,20 @@ void main()
     vec2(-offset_x, -offset_y), vec2( 0.0f,   -offset_y), vec2( offset_x, -offset_y) 
     );
 
-    vec3 color = vec3(0.0f);
+    vec4 silhouette = vec4(0.0f);
     for(int i = 0; i < 9; i++)
-        color += vec3(texture(u_screenTexture, v_texCoords.st + offsets[i])) * kernel[i];
+        silhouette += vec4(texture(u_depthTexture, v_texCoords.st + offsets[i])) * kernel[i];
 
-    fragColor = vec4(color, 1.0f);
-    //fragColor = vec4(texture(u_screenTexture, v_texCoords).rgb, 1.0f);
-    //fragColor = vec4(texture(u_normalTexture, v_texCoords).rgb, 1.0f);
-    fragColor = vec4(texture(u_screenTexture, v_texCoords).rgb, 1.0f);
+    vec4 edges = vec4(0.0f);
+    for(int i = 0; i < 9; i++)
+        edges += vec4(texture(u_normalTexture, v_texCoords.st + offsets[i])) * kernel[i];
+
+    if(length(edges) > 0.9f){
+        edges = vec4(0.0f, 0.0f, 0.0f, 0.0f);
+    }
+    else{
+        edges = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+    }
+
+    fragColor = vec4(texture(u_screenTexture, v_texCoords).rgb, 1.0f) * ((edges + (1.0f-silhouette)) / 2);
 }

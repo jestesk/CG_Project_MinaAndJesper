@@ -34,7 +34,7 @@ struct Context {
     GLuint emptyVAO;
     GLuint programPostProcessing;
     float elapsedTime;
-    std::string gltfFilename = "lpshead.gltf";
+    std::string gltfFilename = "armadillo.gltf";
     float myColor[3];
     float translate[3];
     float scale[3] = {1, 1, 1};
@@ -472,7 +472,7 @@ int main(int argc, char *argv[])
     //GLuint depthrenderbuffer;
     glGenRenderbuffers(1, &depthrenderbuffer);
     glBindRenderbuffer(GL_RENDERBUFFER, depthrenderbuffer);
-    glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT, 1024, 768);
+    glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT, ctx.width, ctx.height);
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER,
                               depthrenderbuffer);
     
